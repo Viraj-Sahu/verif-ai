@@ -37,7 +37,17 @@ const Hero = () => {
           </div>
           
           <AnimatedElement animation="fade-in-left" delay={600} className="relative">
-            <div className="w-full h-[400px]">
+            <div className="w-full h-[400px] relative">
+              <div className="absolute inset-0 z-10 pointer-events-none">
+                <div className="absolute inset-x-0 top-0 h-16 bg-gradient-to-b from-[#1A1F2C] to-transparent"></div>
+                <div className="absolute inset-x-0 bottom-0 h-16 bg-gradient-to-t from-[#1A1F2C] to-transparent"></div>
+                <div className="absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-[#1A1F2C] to-transparent"></div>
+                <div className="absolute inset-y-0 right-0 w-16 bg-gradient-to-l from-[#1A1F2C] to-transparent"></div>
+                <div className="absolute top-0 left-0 w-16 h-16 bg-gradient-to-br from-[#1A1F2C] via-[#1A1F2C] to-transparent rounded-tl-lg"></div>
+                <div className="absolute top-0 right-0 w-16 h-16 bg-gradient-to-bl from-[#1A1F2C] via-[#1A1F2C] to-transparent rounded-tr-lg"></div>
+                <div className="absolute bottom-0 left-0 w-16 h-16 bg-gradient-to-tr from-[#1A1F2C] via-[#1A1F2C] to-transparent rounded-bl-lg"></div>
+                <div className="absolute bottom-0 right-0 w-16 h-16 bg-gradient-to-tl from-[#1A1F2C] via-[#1A1F2C] to-transparent rounded-br-lg"></div>
+              </div>
               <Spline scene="https://prod.spline.design/juoFvgImia9NVLcf/scene.splinecode" />
             </div>
           </AnimatedElement>
