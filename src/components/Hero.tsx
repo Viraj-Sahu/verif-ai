@@ -6,7 +6,7 @@ import Spline from '@splinetool/react-spline';
 
 const Hero = () => {
   return (
-    <section id="hero" className="relative min-h-screen flex items-center pt-16 overflow-hidden bg-verif-dark">
+    <section id="hero" className="relative min-h-screen flex items-center pt-16 overflow-hidden bg-[#1A1F2C]">
       <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
       
       <div className="verif-container relative z-10">
@@ -30,7 +30,7 @@ const Hero = () => {
             </AnimatedElement>
             
             <AnimatedElement animation="fade-in-right" delay={600} className="flex flex-wrap gap-4">
-              <Button size="lg" className="bg-verif-darkBlue hover:bg-verif-blue">
+              <Button size="lg" className="bg-[#6E59A5] hover:bg-[#8B5CF6] text-white">
                 Try Our Solution
               </Button>
             </AnimatedElement>

@@ -23,11 +23,11 @@ const TeamSection = () => {
   ];
 
   return (
-    <section id="team" className="section-padding bg-accent">
+    <section id="team" className="section-padding bg-[#222232]">
       <div className="verif-container">
         <AnimatedElement animation="fade-in" className="max-w-3xl mx-auto text-center mb-16 space-y-4">
-          <h2 className="font-bold">Our <span className="text-gradient">Team</span></h2>
-          <p className="text-muted-foreground">
+          <h2 className="font-bold text-white">Our <span className="text-gradient">Team</span></h2>
+          <p className="text-gray-300">
             Team members - Galactic Codebreakers
           </p>
         </AnimatedElement>
@@ -40,9 +40,9 @@ const TeamSection = () => {
               delay={100 * index}
               className="h-full"
             >
-              <Card className="border-border/50 shadow-sm h-full transition-all duration-300 hover:shadow-md hover:-translate-y-1">
+              <Card className="border-white/10 bg-white/5 shadow-sm h-full transition-all duration-300 hover:shadow-md hover:-translate-y-1">
                 <CardContent className="p-6 text-center">
-                  <h3 className="font-medium">{member.name}</h3>
+                  <h3 className="font-medium text-white">{member.name}</h3>
                 </CardContent>
               </Card>
             </AnimatedElement>
