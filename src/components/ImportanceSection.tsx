@@ -8,18 +8,18 @@ const ImportanceSection = () => {
   const pillars = [
     {
       icon: <CheckCircle className="h-12 w-12 text-verif-blue" />,
-      title: "Authenticity",
-      description: "Ensuring trustworthy digital content by identifying deepfakes and preventing misinformation"
+      title: "Truth",
+      description: "Making sure online content is real by finding fakes and stopping false information"
     },
     {
       icon: <UserCheck className="h-12 w-12 text-verif-purple" />,
-      title: "AI-powered detection",
-      description: "Developing a user-friendly web interface that makes advanced detection technology accessible to everyone"
+      title: "Easy Detection",
+      description: "Creating a simple website that makes powerful AI detection available to everyone"
     },
     {
       icon: <ShieldCheck className="h-12 w-12 text-verif-blue" />,
-      title: "Security",
-      description: "Ensuring public awareness about deepfakes and providing tools to protect digital identity"
+      title: "Safety",
+      description: "Helping people learn about deepfakes and giving tools to protect their digital identity"
     }
   ];
 
@@ -29,10 +29,9 @@ const ImportanceSection = () => {
       
       <div className="verif-container relative z-10">
         <AnimatedElement animation="fade-in" className="max-w-3xl mx-auto text-center mb-16 space-y-4">
-          <h2 className="font-bold">Why It <span className="text-gradient">Matters</span></h2>
+          <h2 className="font-bold">Why This <span className="text-gradient">Matters</span></h2>
           <p className="text-muted-foreground">
-            In an era of increasingly sophisticated synthetic media, deepfake detection is essential 
-            to preserve trust and security in our digital ecosystem.
+            As fake videos get better, we need tools to spot them to keep trust and safety online.
           </p>
         </AnimatedElement>
         

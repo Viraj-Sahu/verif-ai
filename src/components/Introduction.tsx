@@ -8,10 +8,9 @@ const Introduction = () => {
     <section id="introduction" className="section-padding bg-background">
       <div className="verif-container">
         <AnimatedElement animation="fade-in" className="max-w-3xl mx-auto text-center mb-16 space-y-4">
-          <h2 className="font-bold">Understanding the <span className="text-gradient">Deepfake Challenge</span></h2>
+          <h2 className="font-bold">Understanding <span className="text-gradient">Deepfakes</span></h2>
           <p className="text-muted-foreground">
-            As AI technology advances, deepfake creation has become increasingly sophisticated,
-            posing serious threats to information integrity and personal security.
+            As AI gets better, fake videos look more real, causing problems for truth and safety online.
           </p>
         </AnimatedElement>
         
@@ -42,28 +41,26 @@ const Introduction = () => {
           </AnimatedElement>
           
           <AnimatedElement animation="fade-in-left" className="space-y-6">
-            <h3 className="font-semibold">The Evolution of <span className="text-verif-blue">Deepfakes</span></h3>
+            <h3 className="font-semibold">How <span className="text-verif-blue">Deepfakes</span> Have Evolved</h3>
             <p>
-              Deepfake technology has advanced rapidly, creating convincingly realistic face-swapped videos that are increasingly difficult to distinguish from authentic content.
+              Deepfake technology now creates videos so realistic that they're hard to spot as fake.
             </p>
             
             <div className="space-y-4">
               <Card className="border border-border/50 shadow-sm">
                 <CardContent className="p-6">
-                  <h4 className="text-lg font-medium mb-2 text-verif-blue">Increasing Sophistication</h4>
+                  <h4 className="text-lg font-medium mb-2 text-verif-blue">Getting More Advanced</h4>
                   <p className="text-sm text-muted-foreground">
-                    Modern deepfakes utilize advanced generative adversarial networks (GANs) to create 
-                    synthetic media that can perfectly mimic facial expressions, voice, and mannerisms.
+                    Modern deepfakes use AI to perfectly copy faces, voices, and movements.
                   </p>
                 </CardContent>
               </Card>
               
               <Card className="border border-border/50 shadow-sm">
                 <CardContent className="p-6">
-                  <h4 className="text-lg font-medium mb-2 text-verif-purple">Project Goal</h4>
+                  <h4 className="text-lg font-medium mb-2 text-verif-purple">Our Goal</h4>
                   <p className="text-sm text-muted-foreground">
-                    Our mission is to develop an AI/ML-powered solution that can accurately detect face-swap 
-                    deepfakes, providing a robust defense against digital misinformation and fraud.
+                    We're building an AI tool that can spot fake videos, helping protect against online lies and scams.
                   </p>
                 </CardContent>
               </Card>

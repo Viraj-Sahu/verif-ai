@@ -2,6 +2,7 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import AnimatedElement from './AnimatedElement';
+import Spline from '@splinetool/react-spline';
 
 const Hero = () => {
   return (
@@ -24,7 +25,7 @@ const Hero = () => {
               </h1>
               
               <p className="text-white/80 max-w-md">
-                An AI-powered solution to detect and combat deepfake videos, protecting digital integrity in an era of synthetic media.
+                An AI tool to detect fake videos, protecting digital truth in today's world of AI-created media.
               </p>
             </AnimatedElement>
             
@@ -32,26 +33,12 @@ const Hero = () => {
               <Button size="lg" className="bg-verif-blue hover:bg-verif-lightBlue">
                 Try Our Solution
               </Button>
-              <Button size="lg" variant="outline" className="text-white border-white/20 hover:bg-white/10">
-                Learn More
-              </Button>
             </AnimatedElement>
           </div>
           
           <AnimatedElement animation="fade-in-left" delay={600} className="relative">
-            <div className="relative aspect-square max-w-md mx-auto">
-              <div className="absolute inset-0 bg-gradient-to-r from-verif-blue/30 to-verif-purple/30 rounded-full blur-3xl opacity-70 animate-pulse-light"></div>
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="relative w-64 h-64 md:w-80 md:h-80">
-                  {/* Abstract visualization */}
-                  <div className="absolute inset-0 rounded-full border-4 border-white/10 animate-spin" style={{ animationDuration: '15s' }}></div>
-                  <div className="absolute inset-4 rounded-full border-4 border-verif-blue/20 animate-spin" style={{ animationDuration: '10s', animationDirection: 'reverse' }}></div>
-                  <div className="absolute inset-8 rounded-full border-4 border-verif-purple/20 animate-spin" style={{ animationDuration: '5s' }}></div>
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="w-24 h-24 bg-gradient-to-br from-verif-blue to-verif-purple rounded-2xl animate-float shadow-lg backdrop-blur-sm"></div>
-                  </div>
-                </div>
-              </div>
+            <div className="w-full h-[400px]">
+              <Spline scene="https://prod.spline.design/juoFvgImia9NVLcf/scene.splinecode" />
             </div>
           </AnimatedElement>
         </div>
