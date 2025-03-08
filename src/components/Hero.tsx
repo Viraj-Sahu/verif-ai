@@ -30,7 +30,7 @@ const Hero = () => {
             </AnimatedElement>
             
             <AnimatedElement animation="fade-in-right" delay={600} className="flex flex-wrap gap-4">
-              <Button size="lg" className="bg-verif-blue hover:bg-verif-lightBlue">
+              <Button size="lg" className="bg-verif-darkBlue hover:bg-verif-blue">
                 Try Our Solution
               </Button>
             </AnimatedElement>
